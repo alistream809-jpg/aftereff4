@@ -1,0 +1,12 @@
+{
+  "name": "aftertrue",
+  "version-string": "0.1.0",
+  "description": "AFTER TRUE - Windows motion graphics and video compositing",
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "default-features": false,
+      "features": ["avcodec", "avformat", "swscale", "swresample"]
+    }
+  ]
+}
